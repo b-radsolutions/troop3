@@ -1,5 +1,21 @@
-body {background-color: white;}
+html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
 
+    body {
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+hr {
+  color: blue;
+  style=height:30px;
+}
 /* Style The Dropdown Button */
 .dropbtn {
   background-color: #007BBF;
@@ -15,7 +31,7 @@ body {background-color: white;}
 .dropdown {
   position: relative;
   display: inline-block;
-  float:right!important
+  float:right
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -52,7 +68,7 @@ body {background-color: white;}
 
 .parallax {
   background-image: url('home-bg.jpg');
-  height: 1000px;
+  height: 750px;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -70,6 +86,6 @@ body {background-color: white;}
   padding: 16px;
   color: white;
   z-index: 1000;
-  top: 420px;
+  top: 325px;
   ;
 }
