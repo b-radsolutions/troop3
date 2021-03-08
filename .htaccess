@@ -1,0 +1,7 @@
+
+<Files calendar.php>
+AuthType Basic
+AuthName "Authentication Required"
+AuthUserFile .htpasswd
+Require valid-user
+</Files>
